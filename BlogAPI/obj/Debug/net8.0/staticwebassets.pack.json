@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sharm\\source\\repos\\Blog Management API\\wwwroot\\blogs.json",
+      "PackagePath": "staticwebassets\\blogs.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blog Management API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blog Management API.props",
+      "PackagePath": "build\\Blog Management API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog Management API.props",
+      "PackagePath": "buildMultiTargeting\\Blog Management API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blog Management API.props",
+      "PackagePath": "buildTransitive\\Blog Management API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

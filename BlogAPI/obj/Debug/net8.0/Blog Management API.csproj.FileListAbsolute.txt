@@ -1,0 +1,33 @@
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.csproj.AssemblyReference.cache
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.AssemblyInfoInputs.cache
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.AssemblyInfo.cs
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.csproj.CoreCompileInputs.cache
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\appsettings.json
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.staticwebassets.runtime.json
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.exe
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.deps.json
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.runtimeconfig.json
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.dll
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Blog Management API.pdb
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sharm\source\repos\Blog Management API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets\msbuild.Blog Management API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets\msbuild.build.Blog Management API.props
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Blog Management API.props
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blog Management API.props
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\scopedcss\bundle\Blog Management API.styles.css
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Man.CCFC8F8D.Up2Date
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.dll
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\refint\Blog Management API.dll
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.pdb
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\Blog Management API.genruntimeconfig.cache
+C:\Users\sharm\source\repos\Blog Management API\obj\Debug\net8.0\ref\Blog Management API.dll

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "HlLrB2NA75WKcujT9UdY/OON295OU4liPGUyOWisXBA=",
+  "Source": "Blog Management API",
+  "BasePath": "_content/Blog Management API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blog Management API\\wwwroot",
+      "Source": "Blog Management API",
+      "ContentRoot": "C:\\Users\\sharm\\source\\repos\\Blog Management API\\wwwroot\\",
+      "BasePath": "_content/Blog Management API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sharm\\source\\repos\\Blog Management API\\wwwroot\\blogs.json",
+      "SourceId": "Blog Management API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sharm\\source\\repos\\Blog Management API\\wwwroot\\",
+      "BasePath": "_content/Blog Management API",
+      "RelativePath": "blogs.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blogs.json"
+    }
+  ]
+}

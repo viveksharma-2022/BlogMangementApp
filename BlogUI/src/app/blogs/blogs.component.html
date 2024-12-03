@@ -1,0 +1,91 @@
+<div class="container-fluid"> 
+    <div class="text-start" style="margin-top: 50px; margin-bottom: 15px;">
+        <button class="btn btn-success" (click)="openModal()">New</button>
+      </div>
+      <div class="col-md-6 searchstyle">
+        <h2><b>Search Blogs</b></h2>
+      </div>
+      <div class="form-group col-md-6 padl0" style="margin-bottom: 20px;">
+        <input type="text" class="form-control "  placeholder="Search Blogs" [(ngModel)]="searchedKeyword">
+      </div>
+      @if (bloglist && bloglist.length>0) 
+      {
+        <div class="card col-md-6 mx-auto marT15" *ngFor="let blogs of bloglist | paginate:{itemsPerPage:3,currentPage:pages} | filter:searchedKeyword">
+            <div class="card-body">
+              <h5 class="card-title text-center border border-grey textcls">{{blogs.text}}</h5>           
+              <div class="d-flex align-items-center mb-3" style="height: 50px;">
+                <div class="marginclass col">Created By: {{blogs.userName}}</div>
+                <div class="col">Created Date: {{blogs.dateCreated | date:'yyyy-MM-dd'}}</div>
+                <div class="col">
+                    <button class="btn btn-primary marR5" (click)="onEdit(blogs)">Edit</button>
+                    <button class="btn btn-danger" (click)="onDelete(blogs.id)">Delete</button></div>
+              </div>
+            </div>
+            
+        </div>
+        <div style="text-align: center; justify-content: center ;margin-top: 15px;">
+            <pagination-controls (pageChange)="pages = $event"></pagination-controls>
+        </div>
+
+      }@else {
+        <h5>No Blog Found!</h5>
+      }
+      
+</div>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal" #myModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+            @if (blogForm.value.id!=0) 
+            {
+                <h4 class="modal-title">Edit Blog</h4>
+            }@else 
+            {
+                <h4 class="modal-title">Add Blog</h4>   
+            }
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeModal()"></button>
+        </div>
+
+        <form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-10">
+                <input type="text" formControlName="text" [maxLength]="100" name="text" class="form-control" placeholder="Enter Your text" required>
+                <span class="text-danger" *ngIf="(blogdata['text'].touched || submitted) && blogdata['text'].errors?.['required']">
+                  text is required!
+               </span>
+               
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-10">
+                <input type="text" formControlName="userName" maxlength="30" name="userName" class="form-control" placeholder="Enter Your userName" required>
+                <span class="text-danger" *ngIf="(blogdata['userName'].touched || submitted) && blogdata['userName'].errors?.['required']">
+                  userName is required!
+               </span>
+            </div>
+          </div>
+          
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            @if (blogForm.value.id==0) 
+            {
+                <button type="submit" [disabled]="this.blogForm.invalid" class="btn btn-primary" data-bs-dismiss="modal" >Save</button>
+            }@else {
+                <button type="submit" [disabled]="this.blogForm.invalid" class="btn btn-primary" data-bs-dismiss="modal" >Update</button>
+            }
+        
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeModal()">Close</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "userName": "Vivek",
+    "dateCreated": "2024-12-03T02:30:56.2373661+05:30",
+    "text": "This is First Blogs"
+  },
+  {
+    "id": 2,
+    "userName": "vivek3",
+    "dateCreated": "2024-12-03T02:30:56.2373784+05:30",
+    "text": "This is third Blog3"
+  }
+]
